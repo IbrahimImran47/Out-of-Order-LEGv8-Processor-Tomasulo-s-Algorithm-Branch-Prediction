@@ -19,7 +19,8 @@ EE469 builds a 5-stage in-order pipelined LEGv8 CPU. This project takes that fur
 
 ## Structure (built lab-by-lab, EE469-style)
 
- Deliverable |
+ Deliverable 
+ 
 |---|---|
 | 1 | Issue-stage decoder (instruction classification + routing) |
 | 2 | Register Status Table |
