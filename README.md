@@ -17,11 +17,12 @@ EE469 builds a 5-stage in-order pipelined LEGv8 CPU. This project takes that fur
 - **Branch predictor** — global-history based, not the simple 4-state FSM version
 - **Performance evaluation** — IPC, misprediction rate, and a direct comparison against the EE469 baseline pipeline
 
-## Structure (built lab-by-lab, EE469-style)
+## Structure (built module by module)
 
- Deliverable 
- 
-|---|---|
+
+
+| Module | Deliverable |
+|-----|-------------|
 | 1 | Issue-stage decoder (instruction classification + routing) |
 | 2 | Register Status Table |
 | 3 | ALU reservation station + CDB + issue loop |
